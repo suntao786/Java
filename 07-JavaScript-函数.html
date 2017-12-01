@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<Script type="text/javascript">
+    /*
+    函数
+    关键字:function
+     */
+    function add() {
+        var a = 10;
+        var b= 11;
+        var c = a+b;
+        console.log(c);
+    }
+    add();
+    //该方法参数以及返回的放法
+    //不需要声明参数类型,也不需要声明放法的返回类型
+    var a=1;
+    var b=2;
+    function sum(a,b) {
+        return a+b;
+    }
+    var s = sum(a,b);
+    console.log(s);
+
+    var ss = function () {
+        return "helloword";
+    }
+    console.log(ss());
+</Script>
+</body>
+</html>
